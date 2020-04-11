@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+      <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!-- ========== VIEWPORT META ========== -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <title>AWS Flight Details</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="renderer.js"></script>
+        <meta name="description" content="HTML template for Software, Mobile App & SaaS applications.">
+        <meta name="keywords" content="software, mobile app, saas">
+        <meta name="author" content="ThemesEase">
+
+        <!-- ========== FAVICON & APPLE ICONS ========== -->
+        <link rel="shortcut icon" href="images/favicon.png">
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+        <!-- ========== MINIFIED VENDOR CSS ========== -->
+        <link rel="stylesheet" href="styles/vendor.css">
+        <link rel="stylesheet" href="styles/main.css">
+
+        <!-- ========== MODERNIZR ========== -->
+  <!-- ========== Pagination ===== -->
+      
+    </head>
+
+    <body onload="run();" style="background-image: url('images/boxed-bg.jpg'); background-repeat: no-repeat; background-size:cover;">
+        
+        <!--<button onclick="run();">Refresh</button><br/><br/> -->
+
+        <!-- COde -->
+        <nav class="navbar yamm navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button> <!-- end navbar-toggle -->
+            <a class="navbar-brand" href="index.html">
+              <img src="images/Final-logo.png" style="height: 50px;">
+              <!--<img src="images/light-logo.svg" alt="SoftEase Logo" class="light-logo">
+              <img src="images/dark-logo.svg" alt="SoftEase Logo" class="dark-logo"> -->
+
+            </a> <!-- end navbar-brand -->
+          </div> <!-- end navbar-header -->
+
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav pull-right">
+              <li class="active dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="caret"></span></a>
+                            <ul class="dropdown-menu animated fadeIn">
+                  <li>
+                                    <div class="yamm-content">
+                                        <div class="nav-col">
+                                            <ul>
+                                                <li><a href="index.html">Default Home</a></li>
+                                                <li><a href="#">Animated Background</a></li>
+                                                <li><a href="#">Animated Text</a></li>
+                                                <li><a href="#">Animated + Image</a></li>
+                                                <li><a href="#">Home With Slider</a></li>
+                                                <li><a href="#">Boxed Home</a></li>
+                                            </ul>
+                                        </div> <!-- end nav-col -->
+                                    </div> <!-- end yamm-content -->
+                  </li>
+                </ul> <!-- end dropdown-menu -->
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Features <b class="caret"></b></a>
+                <ul class="dropdown-menu animated fadeIn">
+                  <li>
+                      <div class="yamm-content">
+                                        <div class="nav-col">
+                                            <ul>
+                                                <li><h5>FEATURES</h5></li>
+                                                <li><a href="#">Demo Link</a></li>
+                                                <li><a href="#">Demo Link</a></li>
+                                                <li><a href="#">Demo Link</a></li>
+                                                <li><a href="#">Demo Link</a></li>
+                                            </ul>
+                                        </div> <!-- end nav-col -->
+                                        <div class="nav-col">
+                                            <ul>
+                                                <li><h5>FEATURES</h5></li>
+                                                <li><a href="#">Demo Link</a></li>
+                                                <li><a href="#">Demo Link</a></li>
+                                                <li><a href="#">Demo Link</a></li>
+                                                <li><a href="#">Demo Link</a></li>
+                                            </ul>
+                                        </div> <!-- end nav-col -->
+                                        <div class="nav-col dark-bg text-center">
+                                            <!--<h4>Take a demo for FREE!</h4>
+                                            <p class="light-text">This is for demo purpose only. </p>
+                                            <a href="sign-up.html" class="btn se-btn btn-rounded">SIGN UP</a> -->
+                                        </div> <!-- end nav-col -->
+                                    </div> <!-- end yamm-content -->
+                  </li>
+                </ul> <!-- end dropdown-menu -->
+              </li> <!-- end dropdown (features) -->
+              <li class="">
+                <a href="feature-details.html" class="" >Feature Details </a>
+              </li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+              <li class="dropdown dd-left">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
+                            <ul class="dropdown-menu animated fadeIn">
+                  <li>
+                                    <div class="yamm-content">
+                                        <div class="nav-col">
+                                            <ul>
+                                                <li><a href="#">Features</a></li>
+                                                <li><a href="#">Feature Details</a></li>
+                                                <li><a href="#">Login</a></li>
+                                                <li><a href="#">Sign Up</a></li>
+                                                <li><a href="#">FAQs</a></li>
+                                                <li><a href="#">Contact Us</a></li>
+                                                <li><a href="#">Privacy Policy</a></li>
+                                            </ul>
+                                        </div> <!-- end nav-col -->
+                                    </div> <!-- end yamm-content -->
+                  </li>
+                </ul>
+                        </li> <!-- end dropdown.dd-left (pages) -->
+
+                        <li class="dropdown dd-left">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog <b class="caret"></b></a>
+                <ul class="dropdown-menu animated fadeIn">
+                  <li>
+                      <div class="yamm-content">
+                                        <div class="nav-col">
+                                            <ul>
+                                                <li><h5>Default</h5></li>
+                                                <li><a href="#">Default Layout</a></li>
+                                                <li><a href="#">Layout 2</a></li>
+                                                <li><a href="#">Left Sidebar</a></li>
+                                                <li><a href="#">Left Sidebar 2</a></li>
+                                            </ul>
+                                        </div> <!-- end nav-col -->
+                                        <div class="nav-col">
+                                            <ul>
+                                                <li><h5>Single Post</h5></li>
+                                                <li><a href="#">Default</a></li>
+                                                <li><a href="#">Left Sidebar</a></li>
+                                                <li><a href="#">Full Width</a></li>
+                                            </ul>
+                                        </div> <!-- end nav-col -->
+                                        <div class="nav-col dark-bg text-center">
+                                            <h4>Stay Updated!</h4>
+                                            <p class="light-text">Subscribe to our newsletter. </p>
+                                            <a href="#" class="btn se-btn btn-rounded">SUBSCRIBE</a>
+                                        </div> <!-- end nav-col -->
+                                    </div> <!-- end yamm-content -->
+                  </li>
+                </ul> <!-- end dropdown-menu -->
+              </li> <!-- end dropdown (blog) -->
+              <li class="nav-btn-wrap">
+                            <span class="nav-btn"><a href="#" class="btn se-btn-black btn-rounded">Sign Up</a></span>
+                        </li>
+            </ul> <!-- end navbar-nav -->
+
+          </div> <!--end nav-collapse -->
+        </div> <!-- end container -->
+      </nav>
+
+      <!-- ========== HEADER ========== -->
+        <header class="header main-header header-style-2" id="header-animated" >
+            <div class="primary-trans-bg">
+                <div class="container">
+                    <!-- For centering the content vertically -->
+                    <div class="outer">
+                        <div class="inner text-center">
+                            <!-- Table Code-->
+                            <div style="font-style: bold;font-size: 20px; margin-top:-30%; margin-left: -31%;">
+         <div class="card shadow mb-4">
+            <div class="card-header py-3">
+              <h4 class="m-2 font-weight-bold text-primary" style="color: white;">Guard Duty Findings</h4>
+            <div style="float: right; border-radius: 0px;">
+
+        </div>
+            </div>
+            <div class="card-body">
+              <div class="table-responsive">
+
+        <table cellspacing="0" border="1" style=" border-radius: 1em;" id="mytable" class="
+        display" width="100%;" >
+        <thead>
+           <tr style="background-color: black; opacity: 0.5">
+             
+                     <th width="5%" style="color: white;">SL</th>
+                     <th  style="color: white;">IP</th>
+                     <th  style="color: white;">Country</th>
+                     <th  style="color: white;">HitCount</th>
+                     <th  style="color: white;">Time</th>
+                     <th  style="color: white;">Type</th>
+            </tr>
+          
+        </thead>
+        <tbody>
+          
+        </tbody>
+       
+        </table>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+                            <!-- TAble Code -->
+                        </div> <!-- end inner -->
+                    </div> <!-- end outer -->
+                </div> <!-- end container -->
+            </div> <!-- end primary-trans-bg -->
+        </header>
+
+
+
+      <script src="scripts/vendor.js"></script>
+
+        <!-- ========== MINIFIED PLUGINS JS ========== -->
+      <script src="scripts/plugins.js"></script>
+
+      <script src="scripts/main.js"></script>
+
+        <script src="scripts/init-animation.js"></script>
+
+
+        <!--Code End -->
+
+    </body>
+
+</html>
+<style type="text/css">
+  body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+  }
+  table{
+    position: absolute;
+    margin-left: -30px;
+  }
+  tr{
+    background-color: rgba(191, 191, 191,0.3);
+    color: black;
+  }
+</style>
